@@ -5,7 +5,7 @@
   hosts: worker
 
   vars:
-    motd_centos: "welcome to ansible metlife"
+    motd_centos: "welcome too ansible metlife"
     motd_ubuntu: "Welcome to ubuntu machine"
 
   tasks:
