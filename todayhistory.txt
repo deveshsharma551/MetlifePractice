@@ -1,0 +1,196 @@
+    1  hostnamectl set-hostname --static ansiblemaster
+    2  yum install epel-release
+    3  yum install ansible
+    4  ansible --version
+    5  ssh -keygen -t rsa
+    6  ssh-keygen -t rsa
+    7  vi /etc/hosts
+    8  ping worker
+    9  PING worker
+   10  ping worker
+   11  vi /etc/hosts
+   12  ping worker
+   13  history
+   14  ansible all -m ping
+   15  cd  /etc/ansible/hosts
+   16  cd  /etc/ansible
+   17  lii
+   18  li
+   19  ls
+   20  vi hosts
+   21  ssh root@worker
+   22  ping worker
+   23  vi hosts
+   24  ansbile all -m ping
+   25  ansible all -m ping
+   26  vi hosts
+   27  ansible all -m ping
+   28  ssh root@worker
+   29  ansible all -m ping
+   30  exit
+   31  ansible all -m ping
+   32  ssh-keygen -t rsa
+   33  ssh-copy-id -i ~/.ssh/id_rsa.pub root@worker
+   34  ansible all -m ping
+   35  ssh-keygen -t rsa
+   36  ssh-copy-id -i ~/.ssh/id_rsa.pub root@worker
+   37  ansible-playbook motd.yml
+   38  cd customer1
+   39  cd customeer1
+   40  exit
+   41  cd customeer1
+   42  cd customer1
+   43  sudo dnf install git-all
+   44  cd home/customer1
+   45  touch /tmp/x
+   46  exit
+   47  pwd
+   48  cd root
+   49  ls -a
+   50  cd /etc
+   51  ls -a
+   52  gedit motd
+   53  cd..
+   54  exit
+   55  ls
+   56  gedit nginx.yaml
+   57  ansible-playbook nginx.yaml
+   58  pwd
+   59  ls
+   60  exit
+   61  pwd
+   62  cd home
+   63  history
+   64  cd root
+   65  cd /etc/ansible/hosts
+   66  cd /etc
+   67  ls
+   68  cd..
+   69   cd ..
+   70  cd /home/centos
+   71  ls -a
+   72  cd customer1
+   73  ansible-playbook nginx.yaml
+   74  vi nginx.conf.centos.patch
+   75  gedit nginx.conf.centos.patch
+   76  ansible-playbook nginx.yaml
+   77  mkdir files
+   78  ls -a
+   79  cd files
+   80  gedit nginx.conf.centos.patch
+   81  cd ..
+   82  ansible-playbook nginx.yaml
+   83  cd files
+   84  gedit nginx-default.conf
+   85  cd ..
+   86  ansible-playbook nginx.yaml
+   87  mkdir templates
+   88  gedit index.html
+   89  ansible-playbook nginx.yaml
+   90  ls -a
+   91  cd templates
+   92  gedit index.html
+   93  cd ..
+   94  ansible-playbook nginx.yaml
+   95  cd templates
+   96  gedit index.html.j2
+   97  ls -a
+   98  cd ..
+   99  ansible-playbook nginx.yaml
+  100  journalctl -xe
+  101  systemctl status nginx.service
+  102  ls -a
+  103  files
+  104  cd files
+  105  ls -a
+  106  gedit nginx.confi.centos.patch
+  107  cd ..
+  108  ansible-playbook nginx.yaml
+  109  ls -a
+  110  cd files
+  111  ls -a
+  112  vi nginx.conf.centos.patch
+  113  rm nginx.confi.centos.patch
+  114  ls -a
+  115  gedit nginx-default.conf
+  116  ansible-playbook nginx.yaml
+  117  cd ..
+  118  ansible-playbook nginx.yaml
+  119  ls  -a
+  120  rm nginx.conf.centos.patch
+  121  rm index.html
+  122  ls -a
+  123  cd files
+  124  ls -a
+  125  vi nginx.conf.centos.patch
+  126  cd ..
+  127  ls -a
+  128  ansible-playbook nginx.yaml
+  129  vi nginx.yaml 
+  130  ls -a
+  131  git init
+  132  git status
+  133  git add ansible.cfg
+  134  git status
+  135  git commit -m "initial commit"
+  136  git config --global user.email "sharmadevesh33@yahoo.in"
+  137  git config --global user.name "dev"
+  138  git commit -m "initial commit"
+  139  git add .
+  140  git status
+  141  git log
+  142  git long
+  143  git --help
+  144  git remote add origin https://github.com/deveshsharma551/MetlifePractice.git
+  145  git push -u origin master
+  146  git add .
+  147  git status
+  148  git commit -m "second commit"
+  149  git push origin
+  150  cd ..
+  151  mkdir customer2
+  152  cd customer2
+  153  git clone https://github.com/deveshsharma551/MetlifePractice.git
+  154  git fetch
+  155  ls -a
+  156  cd MetlifePractice
+  157  git fetch
+  158  git branch feature
+  159  git branch
+  160  git checkout feature
+  161  git branch
+  162  ls -a
+  163  vi motd.yml
+  164  git commit -m "check"
+  165  git push -u origin feature
+  166  git status
+  167  git checkout master
+  168  git branch --merged
+  169  git merge feature
+  170  git checkout feature
+  171  git push -u origin feature
+  172  git push --merged
+  173  git checkout master
+  174  git push -u origin master
+  175  git checkout feature
+  176  git status
+  177  git commit -m "updated commit"
+  178  git add .
+  179  vi motd.yml
+  180  git status
+  181  git commit -a
+  182  git status
+  183  git push -u origin feature
+  184  git branch 
+  185  git checkout feature
+  186  git checkout master
+  187  git branch --merged
+  188  git merge feature
+  189  git status
+  190  git push -u origin master
+  191  git staus
+  192  git status
+  193  git diff
+  194  git diff motd
+  195  git diff motd.yml
+  196  history > todayhistory.txt
